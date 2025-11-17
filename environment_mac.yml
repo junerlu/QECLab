@@ -1,0 +1,34 @@
+name: qiskit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel
+  - ipython
+  - jupyter_client
+  - jupyter_core
+  - matplotlib-inline
+  - numpy
+  - pandas
+  - scipy
+  - sympy
+  - pillow
+  - rustworkx
+  - pyzmq
+  - tornado
+  - traitlets
+  - typing_extensions
+  - six
+  - pip:
+      - qiskit==2.2.3
+      - qiskit-aer==0.17.2
+      - qiskit-ibm-runtime==0.43.1
+      - pydot
+      - pylatexenc
+      - seaborn
+      - requests
+      - cryptography
+      - ibm-cloud-sdk-core
+      - ibm-platform-services
